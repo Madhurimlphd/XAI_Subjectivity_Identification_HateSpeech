@@ -12,6 +12,7 @@ Original file is located at
 
 import nltk
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 from google.colab import drive
 drive.mount('/content/drive')
@@ -28,7 +29,7 @@ from sklearn import metrics
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import accuracy_score, classification_report,confusion_matrix,f1_score, precision_score, recall_score
 
-cd /content/drive/MyDrive/My_Experiment/Decision_Tree
+cd /content/drive/MyDrive/My_Experiment/Annotator_Subjectivity_XAI_OASIS2024
 
 !pwd
 
